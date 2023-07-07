@@ -10,7 +10,7 @@ public class DashBoardPage extends CommonMethods {
     @FindBy(xpath = "//a[text()='Welcome Admin']")
     public WebElement WelcomeMsg;
 
-    public DashBoardPage() {
-        PageFactory.initElements(driver, this);
+    public DashBoardPage(){
+        PageFactory.initElements(driver,this);
     }
 }

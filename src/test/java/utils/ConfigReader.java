@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
     static Properties prop;
 
     public static Properties readProperties(String filePath) {
@@ -25,4 +24,6 @@ public class ConfigReader {
     public static String getPropertyValue(String key) {
         return prop.getProperty(key);
     }
+
+
 }
